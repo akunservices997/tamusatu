@@ -46,11 +46,36 @@ https://akunservices997.github.io/IHSAND-TRIA/?n=NAMA%20TAMU</textarea>
 <h5> <font color="blue"><i>(https://akunservices997.github.io/IHSAND-TRIA/?n=MAULANA%20FADILAH)<i></font> </h5>
 <a href="https://akunservices997.github.io/IHSAND-TRIA/?n=MAULANA%20FADILAH" class="btn btn-primary"> <i>Test Contoh Link Undangan</i> </a> <br />
 
-<a class="whatsapp" href="https://api.whatsapp.com/" target="blank" title="Buka WhatsApp"><i class="fa fa-whatsapp"></i></a>
-<a href="https://api.whatsapp.com/"><button><font color="black">Buka WhatsApp</font></button></a>
+  <head>
+    <title>Kirim Ke WhatsApp</title>
+    <style>
+      div {
+        margin-bottom: 5px;
+      }
+      label {
+        display: inline-block;
+        width: 100px;
+        color: #777777;
+      }
+      input {
+        padding: 1px 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="https://api.whatsapp.com/send/" method="oneclik">
+      <div>
+        <label for="kolomsatu">NOMER :</label>
+        <input type="hidden" id="kolomsatu" name="phone" type="text" autofocus />
+      </div>
+      <div>
+        <input type="hidden" name="text" value="Klik'Dan'Tahan'Tulisan'ini'Lalu'Tempel'Disini" />
+      </div>
+      <input type="submit" value="Kirim Ke WhatsApp" />
+    </form>
+  </body>
 
-<a class="facebook" href="https://web.facebook.com/" target="blank" title="Buka Facebook"><i class="fa fa-facebook"></i></a>
-<a href="https://web.facebook.com/"><button><font color="black">Buka Facebook</font></button></a>
+<a href="https://web.facebook.com/"><button><font color="black">Kirim Ke Facebook</font></button></a>
 
     <script>
       var button = document.getElementById("copyID"),
